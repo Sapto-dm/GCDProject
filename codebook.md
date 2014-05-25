@@ -1,17 +1,17 @@
-# This file explains the different variables that are present in the tidydata.txt file
-# There are six activities  and 30 subjects , so the resulting dataset has 180 records
-# We start with the variable descriptions
+### This file explains the different variables that are present in the tidydata.txt file
+### There are six activities  and 30 subjects , so the resulting dataset has 180 records
+### We start with the variable descriptions
 
-## subject: 
+###### subject: 
 has a value between 1 - 30 , uniquely identifies the subject. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
 
-##Activity
+######Activity
 activities can have the following six values (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
  
-#subject and activity forms primary key for the records
-#There are a total of 79 other attributes
+###subject and activity forms primary key for the records
+###There are a total of 79 other attributes
 
-#preprocessing that was already applied
+###preprocessing that was already applied
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used.
 This file was generated from the below files
 
@@ -45,11 +45,11 @@ These signals were used to estimate variables of the feature vector for each pat
 Features are normalized and bounded within [-1,1]. 
 The acceleration signals are expressed in standard gravity units 'g' The angular velocity vector measured have units as radians/second.
 
-#The prefix in the name of the variable indicates whether it is a 't' time domain or a 'f' frequency domain attribute
-#The string value in the name 'acc' indicates it is a measure from accelerometer , a string value 'gyro' indicates it is reading from gyroscope
-#The string value in the name 'mag' indicates magnitude of these three-dimensional signals were calculated using the Euclidean norm
+###The prefix in the name of the variable indicates whether it is a 't' time domain or a 'f' frequency domain attribute
+###The string value in the name 'acc' indicates it is a measure from accelerometer , a string value 'gyro' indicates it is reading from gyroscope
+###The string value in the name 'mag' indicates magnitude of these three-dimensional signals were calculated using the Euclidean norm
 
-#Transformation applied
+###Transformation applied
 
 * The names , were changed the spaces were replaced by '.' and '()' was removed
 * The mean value , for each activity and subject id combination is kept 
