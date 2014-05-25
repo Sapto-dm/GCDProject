@@ -1,11 +1,11 @@
-### This file explains different artifacts required for the getting and cleaning data project
+##### This file explains different artifacts required for the getting and cleaning data project
 ###### Following are the contents of the repository
 
 * run_analysis file 
 * code book
 * tidydataset
 
-######### run_analysis
+####### run_analysis
 
 This performs the below steps , it loads the following files
 
@@ -25,10 +25,10 @@ Aggregate fucntion is used to find out activity wise , subject wise mean of the 
 A datasets is created with mean of the selected feature
 
 
-######### tidy dataset
+###### tidy dataset
 There are six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) and 30 subjects , so the resulting dataset has 180 records
 
-######### codebook
+###### codebook
 The code book, describes the variables, the data, and any transformations or work that is performed to clean up the data called CodeBook.md
 
 

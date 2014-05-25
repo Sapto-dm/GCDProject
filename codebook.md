@@ -1,6 +1,6 @@
-### This file explains the different variables that are present in the tidydata.txt file
-### There are six activities  and 30 subjects , so the resulting dataset has 180 records
-### We start with the variable descriptions
+#### This file explains the different variables that are present in the tidydata.txt file
+#### There are six activities  and 30 subjects , so the resulting dataset has 180 records
+#### We start with the variable descriptions
 
 ###### subject: 
 has a value between 1 - 30 , uniquely identifies the subject. The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
@@ -45,11 +45,11 @@ These signals were used to estimate variables of the feature vector for each pat
 Features are normalized and bounded within [-1,1]. 
 The acceleration signals are expressed in standard gravity units 'g' The angular velocity vector measured have units as radians/second.
 
-###The prefix in the name of the variable indicates whether it is a 't' time domain or a 'f' frequency domain attribute
-###The string value in the name 'acc' indicates it is a measure from accelerometer , a string value 'gyro' indicates it is reading from gyroscope
-###The string value in the name 'mag' indicates magnitude of these three-dimensional signals were calculated using the Euclidean norm
+####The prefix in the name of the variable indicates whether it is a 't' time domain or a 'f' frequency domain attribute
+####The string value in the name 'acc' indicates it is a measure from accelerometer , a string value 'gyro' indicates it is reading from gyroscope
+####The string value in the name 'mag' indicates magnitude of these three-dimensional signals were calculated using the Euclidean norm
 
-###Transformation applied
+######Transformation applied
 
 * The names , were changed the spaces were replaced by '.' and '()' was removed
 * The mean value , for each activity and subject id combination is kept 
